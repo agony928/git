@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sunjob:war">
+    <output-path>$PROJECT_DIR$/sunjob/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>sunjob</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="sunjob.war">
+      <element id="artifact" artifact-name="sunjob:war exploded" />
+    </root>
+  </artifact>
+</component>
